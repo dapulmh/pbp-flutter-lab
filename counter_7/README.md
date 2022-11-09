@@ -25,6 +25,7 @@ Widget yang saya pakai pada proyek kali ini yaitu:
 - Positioned adalah widget yang memposisikan children secara spesifik
 - Appbar adalah widget default untuk membuat appbar (widget seperti navbar)
 - Icon adalah widget untuk menampilkan ikon-ikno tertentu
+- MaterialApp adalah widget yang membungkus sebuah widget untuk keperluan aplikasi desain material
 
 3. Apa fungsi dari setState()? Jelaskan variabel apa saja yang dapat terdampak dengan fungsi tersebut!
 
