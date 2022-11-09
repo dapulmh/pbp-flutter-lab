@@ -24,16 +24,15 @@ Widget yang saya pakai pada proyek kali ini yaitu:
 - Collumn adalah widget layout untuk tampilah kolom
 - Positioned adalah widget yang memposisikan children secara spesifik
 - Appbar adalah widget default untuk membuat appbar (widget seperti navbar)
+- Icon adalah widget untuk menampilkan ikon-ikno tertentu
 
 3. Apa fungsi dari setState()? Jelaskan variabel apa saja yang dapat terdampak dengan fungsi tersebut!
 
-Fungsi dari setState() adalah untuk memanipulasi dan mengubah data-data yang berada dalam stateful widget yang disimpan pada object state. Variabel-variabel yang terdampak dengan fungsi tersebut
-adalah _counter dan category dimana _counter dimanipulasi increment dan decrement nya sedangkan category digunakan untuk mengkateforikan _counter apakah ganjil ataupun genap.
+Fungsi dari setState() adalah untuk memanipulasi dan mengubah data-data yang berada dalam stateful widget yang disimpan pada object state. Variabel-variabel yang terdampak dengan fungsi tersebut adalah _counter dan category dimana _counter dimanipulasi increment dan decrement nya sedangkan category digunakan untuk mengkategorikan _counter apakah ganjil ataupun genap.
 
 4. Jelaskan perbedaan antara const dengan final.
 
-Perbedaan const dengan final adalah const mengharuskan variabel harus diinisiasikan pada saat kompilasi dan nilai bersifat konstan sehingga setelah proses kompilasi sudah memiliki nilai sedangkan final 
-tidak mengharuskan variabel harus diinisiasikan pada saat kompilasi
+Perbedaan const dengan final adalah const mengharuskan variabel harus diinisiasikan pada saat kompilasi dan nilai bersifat konstan sehingga setelah proses kompilasi sudah memiliki nilai sedangkan final tidak mengharuskan variabel harus diinisiasikan pada saat kompilasi
 
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
