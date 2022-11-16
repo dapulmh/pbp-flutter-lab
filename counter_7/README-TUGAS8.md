@@ -17,21 +17,21 @@ ketika kita memanggil Navigator.pushReplacement(), route baru akan ditambahkan d
 
 Jawab:
 
--DropdownButton : Widget yang memunculkan dropdown.
--Drawer : widget pada appbar yang memunculkan daftar menu jika ditekan.
--TextFormField : Widget yang menerima input teks masukan dari User.
--TextButton : Widget yang dapat memanggil suatu function ketika ditekan.
--ListView - Sebuah widget yang hanya bisa dibuild dengan salah satu dari beberapa method untuk membuat loop widget berdasarkan sebuah iterable.
--ListTile - Sebuah widget yang memiliki atribut leading, title, subtitle, dan trailing untuk membentuk sebuah kartu.
+- DropdownButton : Widget yang memunculkan dropdown.
+- Drawer : widget pada appbar yang memunculkan daftar menu jika ditekan.
+- TextFormField : Widget yang menerima input teks masukan dari User.
+- TextButton : Widget yang dapat memanggil suatu function ketika ditekan.
+- ListView - Sebuah widget yang hanya bisa dibuild dengan salah satu dari beberapa method untuk membuat loop widget berdasarkan sebuah iterable.
+- ListTile - Sebuah widget yang memiliki atribut leading, title, subtitle, dan trailing untuk membentuk sebuah kartu.
 
 
 3.Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
 
 Jawab:
 
--onPressed : eveint ini akan memanggil properti function yang digunakan ketika widget ditekan. Event ini biasanya terdapat pada widget jenis Button
--onSaved : event ini akan memanggil properti function yang digunakan ketika form disimpan. Event ini biasanya ada pada widget jenis input/form.
--onChanged : event ini akan memanggil properti function yang digunakan ketika isi value dari widget diubah. Event ini biasanya terdapat pada widget jenis input/form.
+- onPressed : eveint ini akan memanggil properti function yang digunakan ketika widget ditekan. Event ini biasanya terdapat pada widget jenis Button
+- onSaved : event ini akan memanggil properti function yang digunakan ketika form disimpan. Event ini biasanya ada pada widget jenis input/form.
+- onChanged : event ini akan memanggil properti function yang digunakan ketika isi value dari widget diubah. Event ini biasanya terdapat pada widget jenis input/form.
 
 4.Jelaskan bagaimana cara kerja Navigator dalam "mengganti" halaman dari aplikasi Flutter.
 
