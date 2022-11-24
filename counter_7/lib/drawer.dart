@@ -1,26 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:counter_7/add.dart';
+import 'package:counter_7/page/budget.dart';
+import 'package:counter_7/page/add.dart';
 import 'package:counter_7/main.dart';
+import 'package:counter_7/page/mywatchlist_page.dart';
 
+class MyDrawer extends StatelessWidget {
+  const MyDrawer({super.key});
 
-class MyDataPage extends StatefulWidget {
-    const MyDataPage({super.key});
-
-
-    final String title = 'Data Budget';
-
-    @override
-    State<MyDataPage> createState() => _MyFormPageState();
-}
-
-class _MyFormPageState extends State<MyDataPage> {
-    @override
-    Widget build(BuildContext context) {
-        return Scaffold(
-            appBar: AppBar(
-                title: Text(widget.title),
-            ),
-            drawer: Drawer(
+  @override
+  Widget build(BuildContext context) {
+    return Drawer(
         child: Column(
           children: [
             // Menambahkan clickable menu
@@ -54,23 +43,18 @@ class _MyFormPageState extends State<MyDataPage> {
                 );
               },
             ),
+            ListTile(
+              title: const Text('Watchlist'),
+              onTap: () {
+                // Route menu ke halaman form
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => const MyWatchListPage()),
+                );
+              },
+            ),
           ],
-        ),
-      ),
-            body:ListView.builder(
-
-                itemCount: Result.contain.length,
-                itemBuilder: (context, index) {
-                final item = Result.contain[index];
-
-                  return ListTile(
-                    title:Text(item.judul),subtitle:Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children:[Text(item.nominal.toString()), Text(item.tipe)]),
-
-            );
-          },
         )
-        );
-    }
+      );
+  }
 }
-
