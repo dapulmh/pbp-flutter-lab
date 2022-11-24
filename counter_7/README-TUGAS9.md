@@ -16,8 +16,10 @@ Jawab:
 - FutureBuilder: sebagai widget yang dapat membangun dirinya sendiri sesuai dengan status yang pada future sebagai wujud komputasi asinkronus
 - ListView : dengan method builder() untuk membuat cards pada layar sesuai dengan banyak data yang di-fetch sebelumnya.
 - InputDecoration : untuk mengkustomisasi tampilan dari TextFormField, seperti menambahkan teks bantuan, label, ikon, serta border.
-- ElevatedButton: untuk menampilkan button untuk kembali ke page my watch list setelah masuk ke bagian detail.
-- beberapa Widget lainnya dari lab dan tugas sebelumnya.
+- TextButton : untuk penerapan back button
+- MyDrawer : drawer buatan untuk drawer tiap page
+- CheckboxListTile : membuat ListTilr dalam bentuk checkbox
+- beberapa Widget lainnya dari tugas sebelumnya.
 
 
 3.Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
@@ -25,10 +27,10 @@ Jawab:
 Jawab:
 
 - Diberikan alamat URI dari API endpoint untuk di-parse agar dapat di-fetch.
-- Data akan di-fetch dari API endpoint dari Heroku (Lab 3)
-- Data yang telah di-fetch akan di-decode menjadi JSON dengan format UTF-8.
-- Dari model yang telah dibuat sebelumnya, data JSON akan diubah menjadi data dalam bentuk model agar mudah untuk diolah.
-- Data yang sudah didapat akan ditampilkan secara langsung atau melewati beberapa operasi logika di aplikasi Flutter.
+- Data akan di-fetch dari API endpoint dari Heroku yang telah dibuat pada lab 3
+- Setelah data telah di fetch, data akan dibentuk dalam json utf-8
+- Data Json tersebut akan diubah menjadidata dalam bentuk model yang telah dibuat agar mudah diolah nanntinya
+- Data akan ditampilkan secara langsung dengan operasi logika di aplikasi Flutter.
 
 4.Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
