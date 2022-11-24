@@ -1,4 +1,4 @@
-# Tugas 9 : Integrasi Web Service pada Flutter
+in# Tugas 9 : Integrasi Web Service pada Flutter
 
 Repositori ini milik Daffa Maulana Haekal (2106652083) untuk kebutuhan [Tugas7](https://pbp-fasilkom-ui.github.io/ganjil-2023/assignments/tugas/tugas-7/)
 
@@ -18,7 +18,7 @@ Jawab:
 - InputDecoration : untuk mengkustomisasi tampilan dari TextFormField, seperti menambahkan teks bantuan, label, ikon, serta border.
 - TextButton : untuk penerapan back button
 - MyDrawer : drawer buatan untuk drawer tiap page
-- CheckboxListTile : membuat ListTilr dalam bentuk checkbox
+- CheckboxListTile : membuat ListTile dalam bentuk checkbox
 - beberapa Widget lainnya dari tugas sebelumnya.
 
 
@@ -37,8 +37,8 @@ Jawab:
 Jawab:
 
 - Menambahkan dependency http ke dalam projek Tugas Flutter ini.
-- Membuat model MyWatchlist sesuai dengan respons dari data yang diambil, yaitu atribut/fields yang sesuai dengan model yang dibuat pada Tugas 3.
-- Membuat halaman my_watchlist_page untuk menampilkan setiap identitas film yang di-fetch sebelumnya.
-- Membuat halaman my_watchlist_detail yang menampilkan setiap detail dari objek MyWatchlist yaitu setiap atribut yang dimilikinya.
-- Membuat button back dengan menggunakan ElevatedButton di halaman my_watchlist_detail agar pengguna dapat kembali ke halaman sebelumnya.
+- Membuat model MyWatchList sesuai dengan respons dari data yang diambil, yaitu atribut/fields yang sesuai dengan model yang dibuat pada Tugas 3.
+- Membuat halaman mywatchlist_page untuk menampilkan setiap identitas film berupa judul dan checkbox yang telah di-fetch sebelumnya.
+- Membuat halaman detail.dart yang menampilkan setiap detail dari objek MyWatchlist yaitu setiap atribut yang dimilikinya.
+- Membuat button back dengan menggunakan TextButton di halaman detail agar pengguna dapat kembali ke halaman sebelumnya.
 - Melakukan refactoring files yang ada sebelumnya dari Tugas 6 dan 7.
