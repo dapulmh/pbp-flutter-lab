@@ -1,4 +1,4 @@
-# Tugas 9 : Integrasi Web Service pada Flutter
+in# Tugas 9 : Integrasi Web Service pada Flutter
 
 Repositori ini milik Daffa Maulana Haekal (2106652083) untuk kebutuhan [Tugas7](https://pbp-fasilkom-ui.github.io/ganjil-2023/assignments/tugas/tugas-7/)
 
@@ -16,8 +16,10 @@ Jawab:
 - FutureBuilder: sebagai widget yang dapat membangun dirinya sendiri sesuai dengan status yang pada future sebagai wujud komputasi asinkronus
 - ListView : dengan method builder() untuk membuat cards pada layar sesuai dengan banyak data yang di-fetch sebelumnya.
 - InputDecoration : untuk mengkustomisasi tampilan dari TextFormField, seperti menambahkan teks bantuan, label, ikon, serta border.
-- ElevatedButton: untuk menampilkan button untuk kembali ke page my watch list setelah masuk ke bagian detail.
-- beberapa Widget lainnya dari lab dan tugas sebelumnya.
+- TextButton : untuk penerapan back button
+- MyDrawer : drawer buatan untuk drawer tiap page
+- CheckboxListTile : membuat ListTile dalam bentuk checkbox
+- beberapa Widget lainnya dari tugas sebelumnya.
 
 
 3.Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
@@ -25,18 +27,18 @@ Jawab:
 Jawab:
 
 - Diberikan alamat URI dari API endpoint untuk di-parse agar dapat di-fetch.
-- Data akan di-fetch dari API endpoint dari Heroku (Lab 3)
-- Data yang telah di-fetch akan di-decode menjadi JSON dengan format UTF-8.
-- Dari model yang telah dibuat sebelumnya, data JSON akan diubah menjadi data dalam bentuk model agar mudah untuk diolah.
-- Data yang sudah didapat akan ditampilkan secara langsung atau melewati beberapa operasi logika di aplikasi Flutter.
+- Data akan di-fetch dari API endpoint dari Heroku yang telah dibuat pada lab 3
+- Setelah data telah di fetch, data akan dibentuk dalam json utf-8
+- Data Json tersebut akan diubah menjadidata dalam bentuk model yang telah dibuat agar mudah diolah nanntinya
+- Data akan ditampilkan secara langsung dengan operasi logika di aplikasi Flutter.
 
 4.Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
 Jawab:
 
 - Menambahkan dependency http ke dalam projek Tugas Flutter ini.
-- Membuat model MyWatchlist sesuai dengan respons dari data yang diambil, yaitu atribut/fields yang sesuai dengan model yang dibuat pada Tugas 3.
-- Membuat halaman my_watchlist_page untuk menampilkan setiap identitas film yang di-fetch sebelumnya.
-- Membuat halaman my_watchlist_detail yang menampilkan setiap detail dari objek MyWatchlist yaitu setiap atribut yang dimilikinya.
-- Membuat button back dengan menggunakan ElevatedButton di halaman my_watchlist_detail agar pengguna dapat kembali ke halaman sebelumnya.
+- Membuat model MyWatchList sesuai dengan respons dari data yang diambil, yaitu atribut/fields yang sesuai dengan model yang dibuat pada Tugas 3.
+- Membuat halaman mywatchlist_page untuk menampilkan setiap identitas film berupa judul dan checkbox yang telah di-fetch sebelumnya.
+- Membuat halaman detail.dart yang menampilkan setiap detail dari objek MyWatchlist yaitu setiap atribut yang dimilikinya.
+- Membuat button back dengan menggunakan TextButton di halaman detail agar pengguna dapat kembali ke halaman sebelumnya.
 - Melakukan refactoring files yang ada sebelumnya dari Tugas 6 dan 7.
